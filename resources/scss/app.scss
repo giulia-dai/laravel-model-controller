@@ -1,1 +1,46 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    background-image: linear-gradient(rgb(176, 176, 176), rgb(41, 40, 40));
+}
+
+// header
+.wrapper {
+    width: 100px;
+
+    .wrap {
+        width: 100%;
+    }
+}
+
+.ms_btn {
+    border: 2px solid red;
+    color: black;
+}
+
+// main
+.title {
+    color: red;
+}
+
+.ms_card {
+    height: 200px;
+    margin: 1rem;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+//footer
+
+footer {
+    margin-top: 100px;
+
+    h6 {
+        color: red;
+        text-align: center;
+    }
+}
